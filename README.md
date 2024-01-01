@@ -3,10 +3,12 @@
 We undertook the development of the classic Hangman game in Python. Hangman is an engaging word-guessing game where players attempt to decipher a hidden word by guessing its individual letters. The player is presented with the word's length and given six opportunities to guess incorrectly. An incorrect guess results in the gradual display of the hangman's figure. If the hangman's complete figure is drawn after six failed attempts and the player hasn't guessed all the letters, the game ends. On successfully guessing all the letters within the word before exhausting the six attempts, the player emerges as the winner. 
 
 Project Structure and Components: 
+
 Choosing the Level: 
 Players begin by selecting a difficulty level: easy, medium, or hard. Each level corresponds to word lengths; easy words contain 5 or fewer characters, medium words span between 6 and 8 characters, and hard words have 9 or more characters. The chosen level is stored in the variable 'level.' 
 
 Playing the Hangman Game: 
+
 play_hangman(self, word): 
 This method orchestrates the entire gameplay. A while loop powers the game, continuing until all the letters in the word are guessed. For each incorrect attempt, an additional stage of the hangman figure is displayed. The loop persists until the sixth error or until all the underscores in the word are replaced by letters, signifying a successful guess. 
 
