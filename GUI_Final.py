@@ -1,6 +1,6 @@
 import csv
 from tkinter import *
-from csci_final_project import *
+from Hangman import *
 import tkinter as tk 
 
 
