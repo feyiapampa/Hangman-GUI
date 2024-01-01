@@ -1,4 +1,5 @@
 # Hangman-GUI
+
 We undertook the development of the classic Hangman game in Python. Hangman is an engaging word-guessing game where players attempt to decipher a hidden word by guessing its individual letters. The player is presented with the word's length and given six opportunities to guess incorrectly. An incorrect guess results in the gradual display of the hangman's figure. If the hangman's complete figure is drawn after six failed attempts and the player hasn't guessed all the letters, the game ends. On successfully guessing all the letters within the word before exhausting the six attempts, the player emerges as the winner. 
 
 Project Structure and Components: 
